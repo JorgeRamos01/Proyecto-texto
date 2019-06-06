@@ -1,0 +1,37 @@
+def lugarDefault(string):   #Funcion para arreglar el formato de la fecha
+    lugares_default = {
+        'elsoldeirapuato': "Irapuato",
+        'elsoldelbajio': "Guanajuato",
+        'elsoldeleon': "Leon",
+        'elsoldehidalgo': "Pachuca",
+        'diariodequeretaro': "Queretaro",
+        'elsoldesalamanca': "Salamanca",
+        'elsoldesanjuandelrio': "San Juan del Rio",
+        'diariodexalapa': "Xalapa",
+        'elsoldetampico': "Tampico",
+        'eloccidental': "Guadalajara",
+        'elsoldesanluis': "San Luis Potosi",
+        'elsoldemexico': "Ciudad de Mexico",
+        'elsoldelcentro': "Aguascalientes",
+        'elsoldecuautla': "Cuautla",
+        'elsoldecuernavaca': "Cuernavaca",
+        'elsoldetlaxcala': "Tlaxcala",
+        'elheraldodechihuahua': "Chihuahua",
+        'elsoldetoluca': "Toluca",
+        'elsoldezacatecas': "Zacatecas",
+        'elsoldetijuana': "Tijuana",
+        'lavozdelafrontera': "Mexicali",
+        'elsoldecordoba': "Cordoba",
+        'elsoldeorizaba': "Orizaba",
+        'elsoldetulancingo': "Tulancingo",
+        'elsoldeacapulco': "Acapulco",
+	'elsoldepuebla': "Puebla",
+    'elheraldodetabasco': "Tabasco",
+    'elheraldodechiapas': "Chiapas",
+    'elsoldehermosillo': "Sonora",
+    'elsoldedurango':"Durango",
+    'elsudcaliforniano':"BajaCaliforniaSur",
+    'noticiasdelsoldelalaguna':"Coahuila"
+        }
+
+    return(lugares_default[string])
